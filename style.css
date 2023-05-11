@@ -1,0 +1,49 @@
+h3{
+    color: rgb(0,125,0);
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-stretch: extra-condensed;
+}
+.para0{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 50px;
+    text-shadow: 6px,6px,6px,gray;
+}
+p::first-letter{
+    font-size: 2em;
+}
+nav{
+    background-color: peachpuff;
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: seagreen;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+}
+nav a{
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: cornflowerblue;
+}
+.ash{
+    font-size: 40px;
+    font-weight: bolder;
+}
+div{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.backk{
+    background-image: url(/image/backk.jpg);
+}
